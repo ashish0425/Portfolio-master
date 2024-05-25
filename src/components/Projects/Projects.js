@@ -54,16 +54,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={tictac}
-              isBlog={false}
-              title="Tic Tac Toe Game"
-              description="Developed a Tic Tac Toe Game while I was Learning HTML, CSS, JavaScript."
-              ghLink="https://github.com/shivam-bhadani/Tic-Tac-Toed"
-              demoLink = "https://shivam-bhadani.github.io/Tic-Tac-Toe/"
-            />
-          </Col>
+       
           
         </Row>
       </Container>

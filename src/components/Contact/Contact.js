@@ -4,9 +4,14 @@ import Particle from "../Particle";
 import ContactImg from "../../Assets/contact.svg";
 import { CgMail } from "react-icons/cg";
 import {ImLocation} from "react-icons/im";
-import {AiOutlineMail} from "react-icons/ai"
+import {AiOutlineInstagram, AiOutlineMail} from "react-icons/ai"
 import {AiFillPhone} from "react-icons/ai"
-
+import {
+  AiFillGithub,
+  AiOutlineTwitter,
+  AiFillInstagram,
+} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 function Contact() {
   return (
     <Container fluid className="about-section">
@@ -38,8 +43,23 @@ function Contact() {
                       <br />
                     </li>
 
+                    
                     <li className="about-activity">
-                      <ImLocation /> Address : Room No.- B214, Hostel-K, NIT Jamshedpur, 831014 
+                      <AiOutlineTwitter /> Twitter : <a className="purple" style={{ "textDecoration": "none" }} href="https://twitter.com/harshr784" target={"_blank"}>@harshr784</a>
+                      <br />
+                      <br />
+                    </li>
+                    <li className="about-activity">
+                      <AiOutlineInstagram /> Instagram : <a className="purple" style={{ "textDecoration": "none" }} href="https://instagram.com/only_hars" target={"_blank"}>@only_hars</a>
+                      <br />
+                      <br />
+                    </li>
+                     
+                    <li className="about-activity">
+                      <ImLocation /> Address : Room No.- B214, Hostel-K, NIT Jamshedpur, 831014.
+                      <br/>
+                      <br/>
+                      
                     </li>
 
                   </ul>
