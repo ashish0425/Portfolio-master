@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ea5c3d77.css",
-    "main.js": "/static/js/main.7c1c94c5.js",
+    "main.css": "/static/css/main.1d6fd519.css",
+    "main.js": "/static/js/main.79a1ebe4.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/myImg.jpg": "/static/media/myImg.7e703215bc04f697d0de.jpg",
     "static/media/trendyhomes.png": "/static/media/trendyhomes.3e2b388e284df65574d5.png",
@@ -14,12 +14,12 @@
     "static/media/contact.svg": "/static/media/contact.852986401283f80befd03100b430def4.svg",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "main.ea5c3d77.css.map": "/static/css/main.ea5c3d77.css.map",
-    "main.7c1c94c5.js.map": "/static/js/main.7c1c94c5.js.map",
+    "main.1d6fd519.css.map": "/static/css/main.1d6fd519.css.map",
+    "main.79a1ebe4.js.map": "/static/js/main.79a1ebe4.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea5c3d77.css",
-    "static/js/main.7c1c94c5.js"
+    "static/css/main.1d6fd519.css",
+    "static/js/main.79a1ebe4.js"
   ]
 }

@@ -47,7 +47,7 @@ function Home2() {
               Currently I'm learning different <i><b className="purple">System Design Concepts</b></i> to make an application fast and scalable.
               <br />
               <br />
-              My hobbies are watching movies, <a className="purple" style={{ "textDecoration": "none" }} href="https://anilist.co/user/shivambhadani/animelist" target={"_blank"}>webseries and reading books</a>.
+              My hobbies are watching  <b className="purple" >movies, webseries and reading books</b>.
               <br />
             </p>
           </Col>
