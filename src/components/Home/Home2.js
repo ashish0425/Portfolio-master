@@ -20,7 +20,7 @@ function Home2() {
             <p>
               You can view or download my resume by clicking the button below.
             </p>
-            <Button variant="primary" href="https://drive.google.com/file/d/1JflJxYHHpXnEfuhYo0w-1VMUPk6k3Snw/view?usp=drive_link" target="_blank">
+            <Button variant="primary" href="https://drive.google.com/file/d/1uIEAhuLuyWrr8IDMJQkuplElfQNfa0Hn/view?usp=drive_link" target="_blank">
               View / Download Resume
             </Button>
           </Col>

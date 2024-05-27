@@ -6,3 +6,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
 }
+
+.fira-sans-condensed-regular {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
