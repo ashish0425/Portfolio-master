@@ -1,7 +1,6 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://ashish0425.github.io/Portfolio-master",
   "private": true,
   "dependencies": {
     "@react-pdf/renderer": "^2.2.0",
@@ -39,7 +38,10 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "@typescript-eslint/no-unused-vars": "off"
+    }
   },
   "browserslist": {
     "production": [
