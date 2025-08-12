@@ -31,7 +31,6 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
-
       </Container>
     </Container>
   );

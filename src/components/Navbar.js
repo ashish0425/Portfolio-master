@@ -89,7 +89,6 @@ function NavBar() {
                 <AiOutlineContacts style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
             </Nav.Item>
-            
           </Nav>
         </Navbar.Collapse>
       </Container>

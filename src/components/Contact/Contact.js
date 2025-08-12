@@ -3,9 +3,9 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 import Particle from "../Particle";
 import ContactImg from "../../Assets/contact.svg";
 import { CgMail } from "react-icons/cg";
-import {ImLocation} from "react-icons/im";
-import {AiOutlineInstagram, AiOutlineMail} from "react-icons/ai"
-import {AiFillPhone} from "react-icons/ai"
+import { ImLocation } from "react-icons/im";
+import { AiOutlineInstagram, AiOutlineMail } from "react-icons/ai";
+import { AiFillPhone } from "react-icons/ai";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -32,35 +32,66 @@ function Contact() {
               <Card.Body>
                 <blockquote className="blockquote mb-0">
                   <ul>
-                  <li className="about-activity">
-                      <AiFillPhone /> Mobile : <a className="purple" style={{ "textDecoration": "none" }} href="8789849210" target={"_blank"}>8789849210</a>
+                    <li className="about-activity">
+                      <AiFillPhone /> Mobile :{" "}
+                      <a
+                        className="purple"
+                        style={{ textDecoration: "none" }}
+                        href="8789849210"
+                        target={"_blank"}
+                      >
+                        8789849210
+                      </a>
                       <br />
                       <br />
                     </li>
                     <li className="about-activity">
-                      <AiOutlineMail /> Email : <a className="purple" style={{ "textDecoration": "none" }} href="mailto:ashishkumar3847@gmail.com" target={"_blank"} rel="noreferrer">ashishkumar3847@gmail.com</a>
+                      <AiOutlineMail /> Email :{" "}
+                      <a
+                        className="purple"
+                        style={{ textDecoration: "none" }}
+                        href="mailto:ashishkumar3847@gmail.com"
+                        target={"_blank"}
+                        rel="noreferrer"
+                      >
+                        ashishkumar3847@gmail.com
+                      </a>
                       <br />
                       <br />
                     </li>
 
-                    
                     <li className="about-activity">
-                      <AiOutlineTwitter /> Twitter : <a className="purple" style={{ "textDecoration": "none" }} href="https://x.com/ashish_0kumar" target={"_blank"} rel="noreferrer">@ashish_0kumar</a>
+                      <AiOutlineTwitter /> Twitter :{" "}
+                      <a
+                        className="purple"
+                        style={{ textDecoration: "none" }}
+                        href="https://x.com/ashish_0kumar"
+                        target={"_blank"}
+                        rel="noreferrer"
+                      >
+                        @ashish_0kumar
+                      </a>
                       <br />
                       <br />
                     </li>
                     <li className="about-activity">
-                      <AiOutlineInstagram /> Instagram : <a className="purple" style={{ "textDecoration": "none" }} href="https://www.instagram.com/ashishgupta8568" target={"_blank"} rel="noreferrer">@ashishkumar8568</a>
+                      <AiOutlineInstagram /> Instagram :{" "}
+                      <a
+                        className="purple"
+                        style={{ textDecoration: "none" }}
+                        href="https://www.instagram.com/ashishgupta8568"
+                        target={"_blank"}
+                        rel="noreferrer"
+                      >
+                        @ashishkumar8568
+                      </a>
                       <br />
                       <br />
-                    </li>                     
-
+                    </li>
                   </ul>
                 </blockquote>
               </Card.Body>
             </Card>
-
-
           </Col>
           <Col
             md={5}
@@ -70,7 +101,6 @@ function Contact() {
             <img src={ContactImg} alt="contact" className="img-fluid" />
           </Col>
         </Row>
-
       </Container>
     </Container>
   );

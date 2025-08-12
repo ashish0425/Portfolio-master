@@ -32,7 +32,10 @@
     "lint": "eslint src --ext .js,.jsx",
     "lint:fix": "eslint src --ext .js,.jsx --fix",
     "build:clean": "GENERATE_SOURCEMAP=false react-scripts build",
-    "start:clean": "DISABLE_ESLINT_PLUGIN=true react-scripts start"
+    "start:clean": "DISABLE_ESLINT_PLUGIN=true react-scripts start",
+    "analyze": "npm run build && npx source-map-explorer build/static/js/*.js",
+    "format": "prettier --write src/**/*.{js,jsx,css,md}",
+    "check-format": "prettier --check src/**/*.{js,jsx,css,md}"
   },
   "eslintConfig": {
     "extends": [
@@ -40,7 +43,14 @@
       "react-app/jest"
     ],
     "rules": {
-      "@typescript-eslint/no-unused-vars": "off"
+      "no-unused-vars": "warn",
+      "react/jsx-no-target-blank": "warn",
+      "no-console": "warn",
+      "prefer-const": "error",
+      "no-var": "error",
+      "@typescript-eslint/no-unused-vars": "off",
+      "react-hooks/exhaustive-deps": "warn",
+      "jsx-a11y/anchor-is-valid": "warn"
     }
   },
   "browserslist": {
@@ -54,5 +64,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "prettier": "^2.8.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
   }
 }

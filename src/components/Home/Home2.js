@@ -14,17 +14,21 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-        <Row>
-          <Col md={12} className="home-about-resume">
-            <h1>VIEW OR DOWNLOAD MY RESUME</h1>
-            <p>
-              You can view or download my resume by clicking the button below.
-            </p>
-            <Button variant="primary" href="https://drive.google.com/file/d/1wWGpFd9S9m7hRQdWfDWDz2wKNhTdsyTA/view?usp=drivesdk" target="_blank">
-              View / Download Resume
-            </Button>
-          </Col>
-        </Row>
+          <Row>
+            <Col md={12} className="home-about-resume">
+              <h1>VIEW OR DOWNLOAD MY RESUME</h1>
+              <p>
+                You can view or download my resume by clicking the button below.
+              </p>
+              <Button
+                variant="primary"
+                href="https://drive.google.com/file/d/1wWGpFd9S9m7hRQdWfDWDz2wKNhTdsyTA/view?usp=drivesdk"
+                target="_blank"
+              >
+                View / Download Resume
+              </Button>
+            </Col>
+          </Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
@@ -35,9 +39,7 @@ function Home2() {
               driven by the challenge of building scalable, impactful
               applications.
               <br />
-              
-              <br />
-              I hold a{" "}
+              <br />I hold a{" "}
               <b className="purple">
                 B.Tech in Electronics and Communication Engineering
               </b>{" "}
@@ -56,12 +58,12 @@ function Home2() {
               <b className="purple">innovative</b> and{" "}
               <b className="purple">efficient</b>.
               <br />
-              <br />
-              I am constantly exploring new technologies to make applications
-              faster, smarter, and more user-friendly — because for me,
+              <br />I am constantly exploring new technologies to make
+              applications faster, smarter, and more user-friendly — because for
+              me,
               <i> good enough is never enough</i>.
             </p>
-          </Col>  
+          </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myimgg} className="img-fluid" alt="avatar" />
@@ -118,7 +120,6 @@ function Home2() {
             </ul>
           </Col>
         </Row>
-      
       </Container>
     </Container>
   );
