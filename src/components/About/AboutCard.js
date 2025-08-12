@@ -8,30 +8,40 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple"> Harsh Raj </span>
-            from <span className="purple"> Patna, India.</span>
-            <br />I am a 3rd year undergraduate at NIT Jamshedpur.
+            Hi Everyone, I am <span className="purple">Ashish Kumar</span> from{" "}
+            <span className="purple">Bihar, India</span>.
+            <br />
+            I graduated with a <span className="purple">B.Tech in Electronics and Communication Engineering </span> 
+            from <span className="purple"> NIT Jamshedpur</span> (2021–2025).
             <br />
             <br />
-            Some of my achievements are:
+            I have hands-on experience as a <span className="purple">Software Engineer Intern</span> at{" "}
+            <span className="purple">GAP Inc.</span>, where I optimized backend solutions using Java, Spring Boot, and Spring — 
+            improving performance and enhancing system scalability.
+            <br />
+            <br />
+            Beyond academics and work, I am passionate about{" "}
+            <span className="purple">competitive programming, full-stack development</span>, and 
+            building impactful projects such as <b>BloodBankDetails</b> and <b>Climate Navigator</b>.
+            <br />
+            <br />
+            Some highlights of my journey:
           </p>
           <ul>
             <li className="about-activity">
-              <FaStar /> Highest Rating of 1210 (Pupil) on <a className="purple" style={{ "textDecoration": "none" }} href="https://codeforces.com/profile/harshr784" target={"_blank"}>Codeforces</a>.
+              <FaStar /> Secured <b>Rank 3</b> in SECE Coding Competition & won <b>Most Consistent Performer Award</b>.
             </li>
             <li className="about-activity">
-              <FaStar /> Global Rank 231  in Codechef’s October long 2022 Division 2 Coding Contest.
-            </li>
-
-            <li className="about-activity">
-              <FaStar /> Achieved Highest Rating of 1607 (3 Star) on <a className="purple" style={{ "textDecoration": "none" }} href="https://www.codechef.com/users/only_harsh" target={"_blank"}>CodeChef</a>.
-            </li>
-            
-            <li className="about-activity">
-              <FaStar /> Institute Rank- 395 out of 5000+ registered students at <a className="purple" style={{ "textDecoration": "none" }} href="https://www.geeksforgeeks.org/user/only_harsh/" target={"_blank"}>GeeksforGeeks</a>.
+              <FaStar /> Global Rank <b>1908</b> in Google Code Jam Farewell Round A.
             </li>
             <li className="about-activity">
-              <FaStar />  Rated 1582 in <a className="purple" style={{ "textDecoration": "none" }} href="https://leetcode.com/only_harsh/" target={"_blank"}>leetcode</a>.
+              <FaStar /> Finalist at <b>PCON Code-Mania Hackathon</b>.
+            </li>
+            <li className="about-activity">
+              <FaStar /> Solved <b>450+</b> problems across LeetCode, Coding Ninjas, and GeeksforGeeks.
+            </li>
+            <li className="about-activity">
+              <FaStar /> Captain of Official Basketball Team & General Secretary of NSS, NIT Jamshedpur.
             </li>
           </ul>
         </blockquote>

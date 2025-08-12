@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "homepage": "https://ashishkumar0425.github.io/Portfolio-master",
   "private": true,
   "dependencies": {
     "@react-pdf/renderer": "^2.2.0",
@@ -26,7 +27,13 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "lint": "eslint src --ext .js,.jsx",
+    "lint:fix": "eslint src --ext .js,.jsx --fix",
+    "build:clean": "GENERATE_SOURCEMAP=false react-scripts build",
+    "start:clean": "DISABLE_ESLINT_PLUGIN=true react-scripts start"
   },
   "eslintConfig": {
     "extends": [

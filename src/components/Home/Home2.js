@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import myImg from "../../Assets/myImg.jpg";
+import myimgg from "../../Assets/myimgg.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -20,7 +20,7 @@ function Home2() {
             <p>
               You can view or download my resume by clicking the button below.
             </p>
-            <Button variant="primary" href="https://drive.google.com/file/d/1uIEAhuLuyWrr8IDMJQkuplElfQNfa0Hn/view?usp=drive_link" target="_blank">
+            <Button variant="primary" href="https://drive.google.com/file/d/1wWGpFd9S9m7hRQdWfDWDz2wKNhTdsyTA/view?usp=drivesdk" target="_blank">
               View / Download Resume
             </Button>
           </Col>
@@ -30,30 +30,41 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a 3rd year undergraduate at NIT Jamshedpur
+              I am <b className="purple">Ashish Kumar</b>, a passionate{" "}
+              <b className="purple">Software Engineer</b> and tech enthusiast,
+              driven by the challenge of building scalable, impactful
+              applications.
               <br />
-             
+              
               <br />
-              My field of Interest's are building new &nbsp;
+              I hold a{" "}
+              <b className="purple">
+                B.Tech in Electronics and Communication Engineering
+              </b>{" "}
+              from <b className="purple">NIT Jamshedpur</b>, where I honed my
+              problem-solving and development skills through{" "}
+              <i>real-world projects</i> and competitive programming.
+              <br />
+              <br />
+              My core interests lie in{" "}
               <i>
-                <b className="purple">Web Technologies and Products. </b>
+                <b className="purple">
+                  Web Technologies, Backend Engineering, and System Design
+                </b>
               </i>
+              , always aiming to create products that are both{" "}
+              <b className="purple">innovative</b> and{" "}
+              <b className="purple">efficient</b>.
               <br />
               <br />
-              I am a <b className="purple">tech geek</b> and always learn and explore things related to <i><b className="purple">Technology and Softwares</b></i>.
-              <br />
-             
-              <br />
-              Currently I'm learning different <i><b className="purple">System Design Concepts</b></i> to make an application fast and scalable.
-              <br />
-              <br />
-              My hobbies are watching  <b className="purple" >movies, webseries and reading books</b>.
-              <br />
+              I am constantly exploring new technologies to make applications
+              faster, smarter, and more user-friendly — because for me,
+              <i> good enough is never enough</i>.
             </p>
-          </Col>
+          </Col>  
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myimgg} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
@@ -66,7 +77,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/onlyharsh"
+                  href="https://github.com/ashish0425"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -76,7 +87,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/onlyharsh/"
+                  href="https://www.linkedin.com/in/ashish-kumar-57057b245"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -86,7 +97,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/harshr784"
+                  href="https://x.com/ashish_0kumar"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -96,7 +107,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/only_hars/"
+                  href="https://www.instagram.com/ashishgupta8568"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

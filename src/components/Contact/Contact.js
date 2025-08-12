@@ -33,34 +33,27 @@ function Contact() {
                 <blockquote className="blockquote mb-0">
                   <ul>
                   <li className="about-activity">
-                      <AiFillPhone /> Mobile : <a className="purple" style={{ "textDecoration": "none" }} href="9931354033" target={"_blank"}>9931354033</a>
+                      <AiFillPhone /> Mobile : <a className="purple" style={{ "textDecoration": "none" }} href="8789849210" target={"_blank"}>8789849210</a>
                       <br />
                       <br />
                     </li>
                     <li className="about-activity">
-                      <AiOutlineMail /> Email : <a className="purple" style={{ "textDecoration": "none" }} href="mailto:harshr784@gmail.com" target={"_blank"}>harshr784@gmail.com</a>
+                      <AiOutlineMail /> Email : <a className="purple" style={{ "textDecoration": "none" }} href="mailto:ashishkumar3847@gmail.com" target={"_blank"} rel="noreferrer">ashishkumar3847@gmail.com</a>
                       <br />
                       <br />
                     </li>
 
                     
                     <li className="about-activity">
-                      <AiOutlineTwitter /> Twitter : <a className="purple" style={{ "textDecoration": "none" }} href="https://twitter.com/harshr784" target={"_blank"}>@harshr784</a>
+                      <AiOutlineTwitter /> Twitter : <a className="purple" style={{ "textDecoration": "none" }} href="https://x.com/ashish_0kumar" target={"_blank"} rel="noreferrer">@ashish_0kumar</a>
                       <br />
                       <br />
                     </li>
                     <li className="about-activity">
-                      <AiOutlineInstagram /> Instagram : <a className="purple" style={{ "textDecoration": "none" }} href="https://instagram.com/only_hars" target={"_blank"}>@only_hars</a>
+                      <AiOutlineInstagram /> Instagram : <a className="purple" style={{ "textDecoration": "none" }} href="https://www.instagram.com/ashishgupta8568" target={"_blank"} rel="noreferrer">@ashishkumar8568</a>
                       <br />
                       <br />
-                    </li>
-                     
-                    <li className="about-activity">
-                      <ImLocation /> Address : Room No.- B214, Hostel-K, NIT Jamshedpur, 831014.
-                      <br/>
-                      <br/>
-                      
-                    </li>
+                    </li>                     
 
                   </ul>
                 </blockquote>
